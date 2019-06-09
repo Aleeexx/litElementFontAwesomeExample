@@ -1,0 +1,25 @@
+
+.icon-should-be-here {
+    color: #333;
+    &:before {
+        font: normal normal normal 1.25rem/1 'Font Awesome 5 Free';
+        content: "\f141";
+    }
+}
+
+div {
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+pre {
+    display: inline;
+    background-color: #CCC;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+}
